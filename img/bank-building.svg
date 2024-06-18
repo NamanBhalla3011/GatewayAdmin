@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123 109" width="123" height="109">
+	<title>bank-building-icon-svg</title>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" fill-rule="evenodd" class="s0" d="m2.8 41.6l58.6-41.6 59 41.6zm-2.8 60.7h9.1v-6.4h1.3v-3h3.9v-36.2h-7.9v-8.7h110.1v8.7h-7.9v36.2h3.9v3h1.3v6.4h9.1v6.6h-122.9zm37-6.3v-3h3.9v-36.3h-12.2v36.3h3.9v3zm22.2 0h4.4v-3h3.9v-36.3h-12.2v36.3h3.9zm26.6 0h4.5v-3.1h3.8v-36.2h-12.1v36.2h3.8zm-4.4-64.8l-19.9-15.2-19.8 15.2z"/>
+	</g>
+</svg>

@@ -1,0 +1,53 @@
+@import "adminGlobal.css";
+.accordion {
+  --bs-accordion-bg: #1c2434 !important;
+  --bs-accordion-btn-color: white !important;
+  --bs-accordion-active-color: white !important;
+  --bs-accordion-active-bg: #343b4a !important;
+  --bs-accordion-border-color: #1c2434 !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+}
+button:hover,
+.active-acc {
+  background-color: #343b4a !important;
+}
+.accordion-collapse {
+  background-color: #343b4a !important;
+}
+.accordion-button::after {
+  background-image: url("../img/chevron-up.svg") !important;
+}
+#navAccordion {
+  height: 83.5vh;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.table.table-striped.table-hover tr td,
+.table.table-striped.table-hover tr th {
+  text-align: center;
+  vertical-align: middle;
+}
+.table.table-striped.table-hover tr td:first-child,
+.table.table-striped.table-hover tr th:first-child {
+  text-align: left;
+  vertical-align: middle;
+}
+.table.table-striped.table-hover tr td:last-child,
+.table.table-striped.table-hover tr th:last-child {
+  text-align: right;
+  vertical-align: middle;
+}
+
+.table.table-striped.table-hover tr td img {
+  height: 20px;
+}
+
+.table.table-striped.table-hover tr td:first-child img {
+  height: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  nav.navbar.navbar-expand-lg {
+    position: absolute;
+  }
+}
